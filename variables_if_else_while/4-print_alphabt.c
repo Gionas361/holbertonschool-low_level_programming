@@ -13,9 +13,12 @@ int main(void)
 char ch;
 char n = '\n';
 
-for (ch = 'a' ; (ch <= 'z') && (ch != 'e' || 'q'); ch++)
+for (ch = 'a' ; (ch <= 'z') ; ch++)
+{
+if (ch != 'e' || 'q')
 {
 putchar(ch);
+}
 }
 putchar(n);
 
