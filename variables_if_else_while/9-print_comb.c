@@ -11,7 +11,6 @@
 int main(void)
 {
 int ch;
-int n = '\n';
 
 for (ch = '0' ; ch < '9' ; ch++)
 {
@@ -19,8 +18,9 @@ putchar(ch);
 putchar(',');
 putchar(' ');
 }
-putchar('9')
-putchar(n);
+
+putchar('9');
+putchar('\n');
 
 return (0);
 }
