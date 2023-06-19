@@ -14,7 +14,7 @@ char ch;
 char CH;
 char n = '\n';
 
-for (ch = 'a' ; ch <= 'z' ; ch++) 
+for (ch = 'a' ; ch <= 'z' ; ch++)
 {
 putchar(ch);
 }
