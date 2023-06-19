@@ -10,8 +10,8 @@
  */
 int main(void)
 {
-char ch;
-char separar = ', ';
+int ch;
+int separar = ', ';
 char n = '\n';
 
 for (ch = '0' ; ch <= '99' ; ch++)
