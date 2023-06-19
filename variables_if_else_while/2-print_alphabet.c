@@ -11,8 +11,7 @@
 int main(void)
 {
 char ch;
-char n;
-n = \n;
+char n = '\n';
 
 for (ch = 'a' ; ch <= 'z' ; ch++)
 {
