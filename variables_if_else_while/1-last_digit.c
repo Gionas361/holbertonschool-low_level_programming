@@ -19,25 +19,25 @@ srand(time(0));
 n = rand() - RAND_MAX / 2;
 
 /* This is my code */
-int idk;
-idk = (n % 10);
+int l;
+l = (n % 10);
 
-if (idk > 5)
+if (l > 5)
 {
 printf("Last digit of %d", n);
-printf("is %d", idk);
+printf("is %d", l);
 printf("and is greater than 5\n");
 }
-else if (idk == 0)
+else if (l == 0)
 {
 printf("Last digit of %d", n);
-printf("is %d", idk);
+printf("is %d", l);
 printf("and is 0\n");
 }
-else if (idk < 6)&&(idk != 0)
+else if (l < 6)&&(l != 0)
 {
 printf("Last digit of %d", n);
-printf("is %d", idk);
+printf("is %d", l);
 printf("and is less than 6 and not 0\n");
 }
 
