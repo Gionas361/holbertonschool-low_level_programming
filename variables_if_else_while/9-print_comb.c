@@ -17,7 +17,7 @@ char n = '\n';
 for (ch = 0 ; ch <= 99 ; ch++)
 {
 putchar(ch);
-putchar(char* separar);
+putchar(separar[]);
 }
 putchar(n);
 
