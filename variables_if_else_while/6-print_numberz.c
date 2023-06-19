@@ -11,13 +11,13 @@
 int main(void)
 {
 int ch;
-int n = \n;
+int n = '\n';
 
 for (ch = '0' ; ch <= '9' ; ch++)
 {
 putchar(ch);
 }
-putchar(n)
+putchar(n);
 
 return (0);
 }
