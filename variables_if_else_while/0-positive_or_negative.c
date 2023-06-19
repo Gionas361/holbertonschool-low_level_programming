@@ -10,10 +10,10 @@
  */
 int main(void)
 {
-    if (.n > 0)
+    if (n > 0)
     {
         printf(n, " is negative");
-    } else (.n < 0) {
+    } else (n < 0) {
         printf(n, "is positive");
     }
 
