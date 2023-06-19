@@ -11,7 +11,7 @@
 int main(void)
 {
 int ch;
-int separar = ', ';
+int separar = '\, ';
 char n = '\n';
 
 for (ch = '0' ; ch <= '99' ; ch++)
