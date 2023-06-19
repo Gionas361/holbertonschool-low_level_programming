@@ -15,7 +15,7 @@ char n = '\n';
 
 for (ch = 'a' ; (ch <= 'z') ; ch++)
 {
-if (ch != 'e' || 'q')
+if ((ch != 'e') || (ch != 'q'))
 {
 putchar(ch);
 }
