@@ -21,7 +21,7 @@ n = rand() - RAND_MAX / 2;
 
 /* This is my code */
 int idk;
-idk = (n % 10)
+idk = (n % 10);
 
 if (idk > 5)
 {
