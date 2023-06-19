@@ -19,6 +19,7 @@ srand(time(0));
 n = rand() - RAND_MAX / 2;
 
 /* This is my code */
+int l;
 l = (n % 10);
 
 if (l > 5)
