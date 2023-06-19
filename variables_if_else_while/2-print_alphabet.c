@@ -10,7 +10,10 @@
  */
 int main(void)
 {
-putchar([[a-z]])
+char ch;
+
+for(ch = 'a' ; ch <= 'z' ; ch++) {
+putchar(ch);
 putchar("\n")
 
 return (0);
