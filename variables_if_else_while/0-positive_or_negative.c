@@ -6,7 +6,7 @@
 #include <stdio.h>
 /**
  * main - idk what im DOING!!!!!
- * Return: will wake the value of void = 0
+ * Return: will wake the value of void = 0's
  */
 int main(void)
 {
