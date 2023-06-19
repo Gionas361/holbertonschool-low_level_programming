@@ -17,7 +17,7 @@ int n = '\n';
 for (ch = '0' ; ch <= '9' ; ch++)
 {
 putchar(ch);
-putchar(separar);
+putchar("%d, " separar);
 }
 putchar(n);
 
