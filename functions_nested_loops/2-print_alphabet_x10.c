@@ -2,7 +2,8 @@
 #include <stdio.h>
 
 /**
- * main - check the code
+ * print_alphabet_x10 - prints the alphabet in lower
+ *                      case 10 times, each in a new line
  *
  * Return: Always 0.
  */
