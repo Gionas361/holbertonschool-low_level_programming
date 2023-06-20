@@ -5,7 +5,7 @@
  * _islower - prints 1 of the string provided is a lower case letter
  *            and prints 0 if the string is anything else.
  *
- * @param c - is the string provided by the user
+ * param c: The string provided by the user
  *
  * Return: gives out the result of calculation.
  */
