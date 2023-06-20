@@ -8,18 +8,18 @@
  */
 int print_alphabet_x10(void)
 {
-    char nTimes;
+	char nTimes;
 
-    for (nTimes = '0' ; nTimes <= '9' ; nTimes++)
-    {
-	    char ch;
+	for (nTimes = '0' ; nTimes <= '9' ; nTimes++)
+	{
+		char ch;
 
-    	for (ch = 'a' ; ch <= 'z' ; ch++)
-	    {
-	    	_putchar(ch);
-	    }
-	    _putchar('\n');
-    }
+		for (ch = 'a' ; ch <= 'z' ; ch++)
+		{
+			_putchar(ch);
+		}
+		_putchar('\n');
+	}
 
 	return (0);
 }
