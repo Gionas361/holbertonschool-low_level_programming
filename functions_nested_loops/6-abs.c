@@ -8,6 +8,7 @@
  *
  * Return: gives out the result of calculation.
  */
+/**
 int _abs(int n)
 {
 	char f;
@@ -16,10 +17,19 @@ int _abs(int n)
 	{
 		f = (n * -1);
 	}
-    else if (n >= 0)
-    {
-        f = n;
-    }
+	else if (n >= 0)
+	{
+		f = n;
+	}
+	return (f);
+	_putchar('\n');
+}
+*/
+
+int _abs(int n)
+{
+	char f;
+	f = ("%d", n);
 	return (f);
 	_putchar('\n');
 }
