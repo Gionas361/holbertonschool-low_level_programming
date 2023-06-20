@@ -11,27 +11,29 @@
  */
 int print_sign(int n)
 {
+    char f;
+
 	if (n > 0)
 	{
 		_putchar('+');
 		_putchar(',');
 		_putchar(' ');
-		return (1);
+		f = 1;
 	}
 	else if (n < 0)
 	{
 		_putchar('-');
 		_putchar(',');
 		_putchar(' ');
-		return (-1);
+		f = -1;
 	}
 	else if (n == 0)
 	{
 		_putchar('0');
 		_putchar(',');
 		_putchar(' ');
-		return (0);
+		f = 0;
 	}
+	return (f);
 	_putchar('\n');
-
 }
