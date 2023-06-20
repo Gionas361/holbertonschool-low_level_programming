@@ -8,7 +8,7 @@
  */
 int print_alphabet();
 
-int print_alphabet(void)
+void int print_alphabet(void)
 {
 	char ch;
 
@@ -23,6 +23,6 @@ int print_alphabet(void)
 
 int main(void)
 {
-	int print_alphabet();
+	print_alphabet();
 	return (0);
 }
