@@ -17,6 +17,7 @@ int print_sign(int n)
 		_putchar(',')
 		_putchar(' ')
 		return (1);
+		_putchar('\n')
 	}
 	else if (n == 0)
 	{
@@ -24,6 +25,7 @@ int print_sign(int n)
 		_putchar(',')
 		_putchar(' ')
 		return (0);
+		_putchar('\n')
 	}
 	else if (n < 0)
 	{
@@ -31,5 +33,6 @@ int print_sign(int n)
 		_putchar(',')
 		_putchar(' ')
 		return (-1);
+		_putchar('\n')
 	}
 }
