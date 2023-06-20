@@ -6,10 +6,10 @@
  *
  * Return: Always 0.
  */
-int _putchar(char c)
-{
-	return (write(1, &c, 1));
-}
+// int _putchar(char c)
+// {
+// 	return (write(1, &c, 1));
+// }
 
 int print_alphabet(void)
 {
@@ -25,8 +25,8 @@ int print_alphabet(void)
 }
 
 
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
+// int main(void)
+// {
+// 	print_alphabet();
+// 	return (0);
+// }
