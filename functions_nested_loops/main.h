@@ -1,4 +1,5 @@
 #include <unistd.h>
+#include <stdio.h>
 
 /**
  * _putchar - writes the character c to stdout
@@ -18,9 +19,9 @@ char ch;
 
 for (ch = 'a' ; ch <= 'z' ; ch++)
 {
-_putchar(ch);
+putchar(ch);
 }
-_putchar('\n');
+putchar('\n');
 
 return (0);
 }
