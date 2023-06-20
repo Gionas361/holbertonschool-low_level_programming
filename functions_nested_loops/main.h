@@ -12,16 +12,15 @@ int _putchar(char c)
 	return (write(1, &c, 1));
 }
 
-int print_alphabet()
+int print_alphabet(void)
 {
 char ch;
-char n = '\n';
 
 for (ch = 'a' ; ch <= 'z' ; ch++)
 {
 putchar(ch);
 }
-putchar(n);
+putchar('\n');
 
 return (0);
 }
