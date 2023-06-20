@@ -12,20 +12,6 @@ int _putchar(char c)
 	return (write(1, &c, 1));
 }
 
-int print_alphabet();
-
-int print_alphabet(void)
-{
-	char ch;
-
-	for (ch = 'a' ; ch <= 'z' ; ch++)
-	{
-		_putchar(ch);
-	}
-	_putchar('\n');
-
-	return (0);
-}
 
 int print_alphabet_x10();
 
