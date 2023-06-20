@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _islower - prints 1 of the string provided is a lower case letter
+ * _isalpha - prints 1 of the string provided is a lower case letter
  *            and prints 0 if the string is anything else.
  *
  * @c: The string provided by the user
