@@ -5,8 +5,8 @@
  * _islower - prints 1 of the string provided is a lower case letter
  *            and prints 0 if the string is anything else.
  *
- * int - is the string provided by the user
- * c - is the result of the calculation
+ * 'int' - is the string provided by the user
+ * 'c' - is the result of the calculation
  *
  * Return: Always 0.
  */
