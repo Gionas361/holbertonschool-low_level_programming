@@ -10,7 +10,7 @@ int print_alphabet_x10(void)
 {
     char nTimes;
 
-    for (nTimes = '0' ; nTimes < '9' ; ch++)
+    for (nTimes = '0' ; nTimes < '9' ; nTimes++)
     {
 	    char ch;
 
