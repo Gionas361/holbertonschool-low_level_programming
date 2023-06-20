@@ -13,7 +13,7 @@ int _islower(int c)
     {
         _putchar('1');
     }
-    else
+    else if (c < 'a' || c > 'z')
     {
         _putchar('0');
     }
