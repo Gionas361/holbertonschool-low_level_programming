@@ -23,6 +23,6 @@ int print_alphabet(void)
 
 int main(void)
 {
-	print_alphabet();
+	int print_alphabet();
 	return (0);
 }
