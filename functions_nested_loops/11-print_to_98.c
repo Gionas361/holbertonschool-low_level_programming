@@ -11,12 +11,13 @@
 
 int print_to_98(int n)
 {
-    int v = 0;
-    
+    int vnum = 0;
+
     printf("%d", n);
-	for (v = n ; n <= 98 ; n++)
+	for (vnum = n ; n <= 98 ; n++)
 	{
-		printf(", %d", n);
+        vnum = n;
+		printf(", %d", vnum);
 	}
 
 	return (0);
