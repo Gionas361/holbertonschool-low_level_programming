@@ -1,8 +1,8 @@
-all: one two three
+all: main.c school.c m.h
     
-one:
+main.c:
     gcc main.c -o school
-two:
+school.c:
     gcc school.c -o school
-three:
+m.h:
     gcc m.h -o school
