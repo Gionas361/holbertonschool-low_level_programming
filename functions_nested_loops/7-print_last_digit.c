@@ -13,7 +13,7 @@ int print_sign(int n)
 {
 	char f;
 
-	f = n % 10
+	f = n % 10;
 	return (f);
 	_putchar('\n');
 }
