@@ -11,8 +11,8 @@
 
 int print_to_98(int n)
 {
-    int v;
-
+    int v = 0;
+    
     printf("%d", n);
 	for (v = n ; n <= 98 ; n++)
 	{
