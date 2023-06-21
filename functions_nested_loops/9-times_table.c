@@ -20,36 +20,27 @@ int times_table(void)
 			if (multy2 < 9)
 			{
 				if (multResult == 0 && multy2 == 0)
-				{
 					printf("%d,", multResult);
-				}
+
 				else if (multResult == 0 && multy2 != 0)
-				{
 					printf("  %d,", multResult);
-				}
+
 				else if (multResult < 10)
-				{
 					printf("  %d,", multResult);
-				}
+
 				else if (multResult >= 10)
-				{
 					printf(" %d,", multResult);
-				}
 			}
 			else if (multy2 == 9)
 			{
 				if (multResult == 0)
-				{
 					printf("  %d\n", multResult);
-				}
+
 				else if (multResult < 10)
-				{
 					printf("  %d\n", multResult);
-				}
+
 				else if (multResult >= 10)
-				{
 					printf(" %d\n", multResult);
-				}
 			}
 		}
 	}
