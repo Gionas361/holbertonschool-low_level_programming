@@ -12,13 +12,7 @@
 int print_last_digit(int n)
 {
 	int f;
-	f = n;
-
-	if (n == f)
-	{
-		f = n % 10;
-		putchar(f);
-	}
+	f = n % 100;
 
 	return (f);
 	_putchar('\n');
