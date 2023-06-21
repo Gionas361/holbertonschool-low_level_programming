@@ -13,6 +13,7 @@
 int add(int n, int c)
 {
 	int f;
+    
 	f = (n + c);
 
 	return (f);
