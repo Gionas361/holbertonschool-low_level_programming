@@ -44,7 +44,9 @@ int jack_bauer(void)
 				_putchar(minute);
 			}
 			_putchar('\n');
-			return (0);
+
 		}
 	}
+    
+	return (0);
 }
