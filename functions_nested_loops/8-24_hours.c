@@ -16,39 +16,24 @@ int jack_bauer(void)
 
 	for (hour = 0 ; hour <= 23 ; hour++)
 	{
-		for (minute = 0 ; minute <= 59 ; minute++)
-		{
-			if (minute < 59)
-			{
-				minute = 0;
-			}
-
-            printf("before if hour");
-			if ((hour >= 0) && (hour <= 9))
-			{
-				_putchar('0');
-				printf("%d", hour);
-			}
-			else if (hour < 9)
-			{
-				printf("%d", hour);
-			}
-			_putchar(':');
-
-            printf("Before if minute");
-			if ((minute >= 0) && (minute <= 9))
-			{
-				_putchar('0');
-				printf("%d", minute);
-			}
-			else if (hour < 9)
-			{
-				printf("%d", minute);
-			}
-			_putchar('\n');
-
-		}
-	}
-
-	return (0);
+        for (minute = 0 ; minute <= 59 ; minute++)
+        {
+            if (hour < 10 && minute < 10)
+            {
+                printf("0%d:0%d\n", hour, minute);
+            }
+            else if (hour < 10 && minute >= 10)
+            {
+                printf("0%d:%d\n", hour, minute);
+            }
+            else if (hour >= 10 && minute < 10)
+            {
+                printf("%d:0%d\n", hour, minute);
+            }
+            else
+            {
+                printf("%d:%d\n", hour, minute);
+            }
+        }
+    }
 }
