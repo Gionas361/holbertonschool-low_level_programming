@@ -1,8 +1,4 @@
 all: main.c school.c m.h
     
-main.c:
-    gcc main.c -o school
-school.c:
-    gcc school.c -o school
-m.h:
-    gcc m.h -o school
+main.c school.c m.h:
+	gcc $@ -o school
