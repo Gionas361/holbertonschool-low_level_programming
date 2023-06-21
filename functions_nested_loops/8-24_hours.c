@@ -22,27 +22,27 @@ int jack_bauer(void)
 			hour++;
 		}
 
-        if ((hour >= 0) && (hour <= 9))
-        {
-            _putchar('0');
-            _putchar(hour);
-        }
-        else if (hour < 9)
-        {
-            _putchar(hour);
-        }
-        _putchar(':');
+		if ((hour >= 0) && (hour <= 9))
+		{
+			_putchar('0');
+			_putchar(hour);
+		}
+		else if (hour < 9)
+		{
+			_putchar(hour);
+		}
+		_putchar(':');
 
-        if ((minute >= 0) && (minute <= 9))
-        {
-            _putchar('0');
-            _putchar(minute);
-        }
-        else if (hour < 9)
-        {
-            _putchar(minute);
-        }
-        _putchar('\n');
-        return (0);
+		if ((minute >= 0) && (minute <= 9))
+		{
+			_putchar('0');
+			_putchar(minute);
+		}
+		else if (hour < 9)
+		{
+			_putchar(minute);
+		}
+		_putchar('\n');
+		return (0);
 	}
 }
