@@ -31,7 +31,7 @@ int jack_bauer(void)
         {
             _putchar(hour);
         }
-        _putchar(':')
+        _putchar(':');
 
         if ((minute >= 0) && (minute <= 9))
         {
