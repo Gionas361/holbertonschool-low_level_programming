@@ -14,14 +14,13 @@ int jack_bauer(void)
 	int hour;
 	int minute;
 
-	for ((hour = 0) && (hour <= 23))
+	for (hour = 0 ; hour <= 23 ; hour++)
 	{
-		for (minute = 0 ; minute <= 60 ; minute++)
+		for (minute = 0 ; minute <= 59 ; minute++)
 		{
-			if (minute == 60)
+			if (minute < 59)
 			{
 				minute = 0;
-				hour += 1;
 			}
 
 			if ((hour >= 0) && (hour <= 9))
