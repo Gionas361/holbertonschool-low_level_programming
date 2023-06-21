@@ -28,6 +28,7 @@ int _abs(int n)
 
 int _abs(int n)
 {
-	_putchar('%d\n', n);
+	int f;
+	f = abs(n);
 	return (f);
 }
