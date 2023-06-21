@@ -16,10 +16,9 @@ int jack_bauer(void)
 
 	for (minute = 0 ; minute <= 60 ; minute++)
 	{
-		if (minute == 60)
+		if (minute == 60 ; hour++)
 		{
 			minute = 0;
-			hour++;
 		}
 
 		if ((hour >= 0) && (hour <= 9))
