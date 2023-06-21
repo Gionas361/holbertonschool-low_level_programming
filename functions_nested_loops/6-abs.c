@@ -15,7 +15,7 @@ int _abs(int n)
 
 	if (n < 0)
 	{
-		f = ('%d\n', n); /**n * (-1)*/
+		f = puts('%d\n', n); /**n * (-1)*/
 	}
 	else if (n >= 0)
 	{
