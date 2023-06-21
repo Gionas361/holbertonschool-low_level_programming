@@ -13,7 +13,6 @@ int print_to_98(int n)
 {
     int vnum;
 
-    printf("%d", n);
 	for (vnum = n ; n <= 98 ; n++)
 	{
         vnum = n;
