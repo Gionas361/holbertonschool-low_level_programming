@@ -18,7 +18,7 @@ int print_to_98(int n)
 	    for (vnum = n ; n == 98 ; n++)
 	    {
             vnum = n;
-            if (vnum != 98)
+            if (vnum < 98)
             {
 	            printf("%d, ", vnum);
             }
@@ -33,7 +33,7 @@ int print_to_98(int n)
 	    for (vnum = n ; n == 98 ; n--)
     	{
             vnum = n;
-            if (vnum != 98)
+            if (vnum > 98)
             {
     		    printf("%d, ", vnum);
             }
