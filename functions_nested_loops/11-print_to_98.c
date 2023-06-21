@@ -8,41 +8,48 @@
  *
  * Return: gives out the result of calculation.
  */
+int main(void)
+{
+    print_to_98(0);
+    print_to_98(98);
+    print_to_98(111);
+    print_to_98(81);
+    print_to_98(-10);
+    return (0);
+}
 
 int print_to_98(int n)
 {
-	int vnum;
-
-	if (n < 98)
+	if (n <= 98)
 	{
-		for (vnum = n ; n == 98 ; n++)
+		for (; n <= 98; n++)
 		{
-			vnum = n;
-			if (vnum < 98)
+			if (n == 98)
 			{
-				printf("%d, ", vnum);
+				printf("%d", n);
+				printf("\n");
 			}
-			else if (vnum == 98)
+			else
 			{
-				printf("%d", vnum);
+				printf("%d, ", n);
 			}
 		}
 	}
-	else if (n > 98)
+	else
 	{
-		for (vnum = n ; n == 98 ; n--)
+		for (; n >= 98; n--)
 		{
-			vnum = n;
-			if (vnum > 98)
+			if (n == 98)
 			{
-				printf("%d, ", vnum);
+				printf("%d", n);
+				printf("\n");
 			}
-			else if (vnum == 98)
+			else
 			{
-				printf("%d", vnum);
+				printf("%d, ", n);
 			}
 		}
 	}
 
-	return (0);
+    return (0);
 }
