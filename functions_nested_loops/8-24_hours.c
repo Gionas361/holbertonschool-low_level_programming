@@ -26,22 +26,22 @@ int jack_bauer(void)
 			if ((hour >= 0) && (hour <= 9))
 			{
 				_putchar('0');
-				printf('%d', hour);
+				printf("%d", hour);
 			}
 			else if (hour < 9)
 			{
-				printf('%d', hour);
+				printf("%d", hour);
 			}
 			_putchar(':');
 
 			if ((minute >= 0) && (minute <= 9))
 			{
 				_putchar('0');
-				printf('%d', minute);
+				printf("%d", minute);
 			}
 			else if (hour < 9)
 			{
-				printf('%d', minute);
+				printf("%d", minute);
 			}
 			_putchar('\n');
 
