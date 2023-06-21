@@ -12,8 +12,14 @@
 int print_last_digit(int n)
 {
 	int f;
-	f = ((n % 10) * 11);
+	f = (n % 10);
 
+	if (f < 0)
+	{
+		f = f * -1;
+	}
+
+	_putchar(f + '0');
 	return (f);
 	_putchar('\n');
 }
