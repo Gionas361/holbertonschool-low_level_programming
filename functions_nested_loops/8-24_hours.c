@@ -23,6 +23,7 @@ int jack_bauer(void)
 				minute = 0;
 			}
 
+            prinf("before if hour");
 			if ((hour >= 0) && (hour <= 9))
 			{
 				_putchar('0');
@@ -34,6 +35,7 @@ int jack_bauer(void)
 			}
 			_putchar(':');
 
+            printf("Before if minute");
 			if ((minute >= 0) && (minute <= 9))
 			{
 				_putchar('0');
