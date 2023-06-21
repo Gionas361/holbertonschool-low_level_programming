@@ -12,7 +12,8 @@
 int print_last_digit(int n)
 {
 	int f;
-	f = n % 100;
+	f = n % 10;
+    f = f * 11;
 
 	return (f);
 	_putchar('\n');
