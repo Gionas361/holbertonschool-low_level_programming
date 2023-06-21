@@ -9,7 +9,7 @@
  * Return: gives out the result of calculation.
  */
 
-int print_sign(int n)
+int print_last_digit(int n)
 {
 	char f;
 
