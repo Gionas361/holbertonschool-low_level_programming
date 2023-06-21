@@ -14,34 +14,38 @@ int jack_bauer(void)
 	int hour;
 	int minute;
 
-	for (minute = 0 ; minute <= 60 ; minute++)
+	for (hour = 0 ; hour <= 23)
 	{
-		if (minute == 60 ; hour++)
+		for (minute = 0 ; minute <= 60 ; minute++)
 		{
-			minute = 0;
-		}
+			if (minute == 60)
+			{
+				minute = 0;
+				hour += 1;
+			}
 
-		if ((hour >= 0) && (hour <= 9))
-		{
-			_putchar('0');
-			_putchar(hour);
-		}
-		else if (hour < 9)
-		{
-			_putchar(hour);
-		}
-		_putchar(':');
+			if ((hour >= 0) && (hour <= 9))
+			{
+				_putchar('0');
+				_putchar(hour);
+			}
+			else if (hour < 9)
+			{
+				_putchar(hour);
+			}
+			_putchar(':');
 
-		if ((minute >= 0) && (minute <= 9))
-		{
-			_putchar('0');
-			_putchar(minute);
+			if ((minute >= 0) && (minute <= 9))
+			{
+				_putchar('0');
+				_putchar(minute);
+			}
+			else if (hour < 9)
+			{
+				_putchar(minute);
+			}
+			_putchar('\n');
+			return (0);
 		}
-		else if (hour < 9)
-		{
-			_putchar(minute);
-		}
-		_putchar('\n');
-		return (0);
 	}
 }
