@@ -20,3 +20,5 @@ int print_numbers(void);
 int print_most_numbers(void);
 
 int more_numbers(void);
+
+int print_line(int n);
