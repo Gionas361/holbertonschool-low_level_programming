@@ -11,12 +11,15 @@
 
 int _isupper(char c)
 {
+	int r;
+
 	if (c >= 'a' && c <= 'z')
 	{
-		return (0);
+		r = 0;
 	}
 	else if (c >= 'A' && c <= 'Z')
 	{
-		return (1);
+		r = 1;
 	}
+	return (r);
 }
