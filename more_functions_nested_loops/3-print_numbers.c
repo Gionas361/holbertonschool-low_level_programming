@@ -15,7 +15,7 @@ int print_numbers(void)
 	{
 		printf("%d", r);
 	}
-	_putchar('\n');
+	pritnf("\n");
 
 	return (0);
 }
