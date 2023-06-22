@@ -13,20 +13,20 @@ int print_triangle(int size)
 {
 	int height;
 	int lenght;
-    int hashtags;
+	int hashtags;
 
-    for (height = 1 ; height <= size ; height++) 
-    {
-        for (lenght = (size - height) ; lenght > 0 ; lenght--)
-        {
-            printf(" ");
-        }
-        for (hashtags = (size - (size - height)) ; hashtags > 0 ; hashtags--)
-        {
-            printf("#");
-        }
-        printf("\n");
-    }
+	for (height = 1 ; height <= size ; height++) 
+	{
+		for (lenght = (size - height) ; lenght > 0 ; lenght--)
+		{
+			printf(" ");
+		}
+		for (hashtags = (size - (size - height)) ; hashtags > 0 ; hashtags--)
+		{
+			printf("#");
+		}
+		printf("\n");
+	}
 
 	if (size <= 0)
 	{
