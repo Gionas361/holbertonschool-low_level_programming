@@ -15,7 +15,7 @@ int print_triangle(int size)
 	int lenght;
     int hashtags;
 
-    for (height = 0 ; height < size ; height++) 
+    for (height = 0 ; height <= size ; height++) 
     {
         for (lenght = (size - height) ; lenght > 0 ; lenght--)
         {
