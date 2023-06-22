@@ -8,13 +8,14 @@
  *
  * Return: gives out the result of calculation.
  */
+
 int _isupper(int c)
 {
 	if (c >= 'a' && c <= 'z')
 	{
 		return (0);
 	}
-	else (c >= 'A' && c <= 'Z')
+	else if (c >= 'A' && c <= 'Z')
 	{
 		return (1);
 	}
