@@ -17,13 +17,17 @@ int main(void)
 
     for (num = 1 ; num <= 100 ; num++)
     {
-        if ((num % fi) == 1)
+        if ((num % fi) == 0)
         {
             printf("Fizz");
         }
-        else if ((num % bu) == 1)
+        else if ((num % bu) == 0)
         {
             printf("Buzz");
+        }
+        else if (((num % bu) == 0) && ((num % bu) == 0))
+        {
+            printf("FizzBuzz");
         }
         else
         {
