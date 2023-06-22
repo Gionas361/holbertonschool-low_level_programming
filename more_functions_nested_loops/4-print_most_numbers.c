@@ -15,7 +15,7 @@ int print_most_numbers(void)
 	{
 		if (r != 2 || 4)
 		{
-		printf("%d", r);
+			printf("%d", r);
 		}
 	}
 	printf("\n");
