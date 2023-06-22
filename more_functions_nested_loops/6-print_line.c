@@ -11,13 +11,12 @@ int print_line(int n)
 {
 	if (n > 0)
 	{
-		for (; n == 0 ; r--)
+		for (; n == 0 ; n--)
 		{
 			printf("_");
 		}
-    }
-
-	printf("\n");
 	}
+	printf("\n");
+
 	return (0);
 }
