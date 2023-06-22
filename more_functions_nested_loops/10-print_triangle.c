@@ -23,9 +23,9 @@ int print_triangle(int size)
         }
         for (hashtags = (size - (size - height)) ; hashtags > 0 ; hashtags--)
         {
-            printf("#")
+            printf("#");
         }
-        printf("\n")
+        printf("\n");
     }
 
 	if (size <= 0)
