@@ -9,8 +9,13 @@
 
 int print_numbers(void)
 {
-	_putchar('0123456789');
-	_putchar('\n');
+	int r;
+
+	for (r = 0 ; r <= 9 ; r++)
+	{
+		printf("%d", r);
+	}
+	printf('\n');
 
 	return (0);
 }
