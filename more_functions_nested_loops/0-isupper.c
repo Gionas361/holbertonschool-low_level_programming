@@ -9,9 +9,9 @@
  * Return: gives out the result of calculation.
  */
 
-int _isupper(int c)
+int _isupper(char c)
 {
-    int result;
+	int result;
 
 	if (c >= 'a' && c <= 'z')
 	{
@@ -22,5 +22,5 @@ int _isupper(int c)
 		result = 1;
 	}
 
-    return (result);
+	return (result);
 }
