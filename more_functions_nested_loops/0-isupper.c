@@ -2,14 +2,13 @@
 #include <stdio.h>
 
 /**
- * _isalpha - prints 1 of the string provided is a lower case letter
- *            and prints 0 if the string is anything else.
+ * _isupper - checks for the upper case letter
  *
  * @c: The string provided by the user
  *
  * Return: gives out the result of calculation.
  */
-int _isalpha(int c)
+int _isupper(int c)
 {
 	if (c >= 'a' && c <= 'z')
 	{
