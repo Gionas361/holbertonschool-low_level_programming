@@ -4,7 +4,7 @@
 /**
  * print_line - prints a line
  *
- * @n - the string provided by the user
+ * @n: the string provided by the user
  *
  * Return: gives out the result of calculation.
  */
