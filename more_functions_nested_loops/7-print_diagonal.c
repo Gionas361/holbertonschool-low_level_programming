@@ -12,16 +12,17 @@
 int print_diagonal(int n)
 {
 	int counter;
+	int diago;
 
 	for (counter = 0 ; counter <= n ; counter++)
 	{
-		for (; counter > 0 ; counter--)
+		for (diago = counter; diago > 0 ; diago--)
 		{
 			_putchar(' ');
 		}
 		_putchar('\\');
+		_putchar('\n');
 	}
-	_putchar('\n');
 
 	return (0);
 }
