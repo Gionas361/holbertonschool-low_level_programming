@@ -4,7 +4,7 @@
 /**
  * print_triangle - prints a triangle
  *
- * @n: the string provided by the user
+ * @size: the string provided by the user
  *
  * Return: gives out the result of calculation.
  */
@@ -15,7 +15,7 @@ int print_triangle(int size)
 	int lenght;
 	int hashtags;
 
-	for (height = 1 ; height <= size ; height++) 
+	for (height = 1 ; height <= size ; height++)
 	{
 		for (lenght = (size - height) ; lenght > 0 ; lenght--)
 		{
