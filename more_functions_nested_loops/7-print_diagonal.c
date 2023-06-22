@@ -14,9 +14,9 @@ int print_diagonal(int n)
 	int counter;
 	int diago;
 
-	for (counter = 0 ; counter <= n ; counter++)
+	for (counter = 0 ; counter < n ; counter++)
 	{
-		for (diago = counter ; diago >= -1 ; diago--)
+		for (diago = counter ; diago > 0 ; diago--)
 		{
 			_putchar(' ');
 		}
