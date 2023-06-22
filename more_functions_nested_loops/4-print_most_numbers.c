@@ -13,10 +13,11 @@ int print_most_numbers(void)
 
 	for (r = 0 ; r <= 9 ; r++)
 	{
-		if (r != 2 || r != 4)
+		if (r == 2 || r == 4)
 		{
-			printf("%d", r);
+			r = r + 1;
 		}
+		printf("%d", r);
 	}
 	printf("\n");
 
