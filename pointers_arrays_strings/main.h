@@ -22,3 +22,5 @@ int print_rev(char *s);
 int rev_string(char *s);
 
 int puts2(char *str);
+
+int puts_half(char *str);
