@@ -15,7 +15,7 @@ int _puts(char *str)
 	int countnum;
 
 	for (countnum = 0; str[countnum] ; countnum++)
-    {}
+	{}
 
 	for (currstr = 0 ; currstr <= countnum ; currstr++)
 	{
