@@ -19,9 +19,9 @@ int _puts(char *str)
 
 	for (currstr = 0 ; currstr <= countnum ; currstr++)
 	{
-		_putchar('%c', str[currstr]);
+		printf('%c', str[currstr]);
 	}
-	_putchar('\n');
+	printf('\n');
 
 	return (0);
 }
