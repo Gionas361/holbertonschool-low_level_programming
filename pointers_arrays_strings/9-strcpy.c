@@ -1,9 +1,8 @@
 #include <string.h>
 #include "main.h"
 #include <stdio.h>
-
 /**
- * *_stcpy - prints a triangle
+ * rev_string - prints a triangle
  *
  * @dest: the string provided by the user
  * @src: the string provided by the user
