@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * swap_int - prints a triangle
+ * _strlen - prints a triangle
  *
  * @s: the string provided by the user
  *
