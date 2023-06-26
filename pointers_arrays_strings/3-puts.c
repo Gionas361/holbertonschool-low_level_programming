@@ -8,6 +8,14 @@
  *
  * Return: gives out the result of calculation.
  */
+int main(void)
+{
+    char *str;
+
+    str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
+    _puts(str);
+    return (0);
+}
 
 int _puts(char *str)
 {
@@ -20,7 +28,7 @@ int _puts(char *str)
 	{
 		printf("%c", str[currstr]);
 	}
-	_putchar('\n');
+	printf("\n");
 
 	return (0);
 }
