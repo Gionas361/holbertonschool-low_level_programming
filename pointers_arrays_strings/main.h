@@ -15,6 +15,6 @@ int swap_int(int *a, int *b);
 
 int _strlen(char *s);
 
-void _puts(char *str);
+int _puts(char *str);
 
 int print_rev(char *s);
