@@ -14,7 +14,8 @@ int print_rev(char *s)
 	int currstr;
 	int countnum;
 
-	for (countnum = 0; s[countnum] ; countnum++);
+	for (countnum = 0; s[countnum] ; countnum++)
+	{}
 
 	for (currstr = countnum ; currstr >= 0 ; currstr--)
 	{
