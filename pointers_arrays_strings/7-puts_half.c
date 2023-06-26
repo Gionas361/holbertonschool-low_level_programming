@@ -8,12 +8,12 @@
  *
  * Return: gives out the result of calculation.
  */
- 
+
 int puts_half(char *str)
 {
 	int currstr;
 	int countnum;
-    int halfcountnum;
+	int halfcountnum;
 
 	for (countnum = 0; str[countnum] ; countnum++)
 	{}
