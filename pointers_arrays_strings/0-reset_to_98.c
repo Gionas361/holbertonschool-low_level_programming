@@ -4,7 +4,7 @@
 /**
  * reset_to_98 - prints a triangle
  *
- * @*n: the string provided by the user
+ * *n: the string provided by the user
  *
  * Return: gives out the result of calculation.
  */
