@@ -19,7 +19,7 @@ int puts2(char *str)
 
 	for (currstr = -1 ; currstr <= countnum ; currstr++)
 	{
-        currstr++;
+		currstr++;
 		printf("%c", str[currstr]);
 	}
 	printf("\n");
