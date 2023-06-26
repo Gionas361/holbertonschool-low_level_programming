@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * rev_string - prints a triangle
+ * *_stcpy - prints a triangle
  *
  * @dest: the string provided by the user
  * @src: the string provided by the user
