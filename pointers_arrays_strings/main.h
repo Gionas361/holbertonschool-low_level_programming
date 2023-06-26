@@ -25,3 +25,5 @@ int rev_string(char *s);
 int puts2(char *str);
 
 int puts_half(char *str);
+
+int print_array(int *a, int n);
