@@ -20,7 +20,7 @@ int _puts(char *str)
 	{
 		printf("%c", str[currstr]);
 	}
-	printf("\n");
+	_putchar('\n');
 
 	return (0);
 }
