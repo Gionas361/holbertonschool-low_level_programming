@@ -13,14 +13,7 @@ int reset_to_98(int *n)
 {
 	int valor = 98;
 
-	printf("n=%x\n", n);
 	*n = valor;
-	printf("n=%x\n", n);
 
 	return (0);
-}
-
-int main()
-{
-    reset_to_98(402);
 }
