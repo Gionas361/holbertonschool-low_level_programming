@@ -8,10 +8,7 @@
  * main - puts will print the text inside of the quotation
  * Return: will wake the value of void = 0
  */
-int main(void)
+int _putchar(char c)
 {
-
-puts("_putchar");
-
-return (0);
+	return (write(1, &c, 1));
 }
