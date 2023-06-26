@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * reset_to_98 - prints a triangle
+ * swap_int - prints a triangle
  *
  * @a: the string provided by the user
  * @b: the string provided by the user
