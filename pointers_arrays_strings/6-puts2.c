@@ -6,7 +6,7 @@
  *
  * @str: the string provided by the user
  *
- * Return: gives out the result of calculation.
+ * Return: void
  */
 
 void puts2(char *str)
