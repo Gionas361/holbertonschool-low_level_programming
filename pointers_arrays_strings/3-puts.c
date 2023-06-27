@@ -11,13 +11,9 @@
 
 int _puts(char *str)
 {
-	int currstr;
 	int countnum;
 
 	for (countnum = 0; str[countnum] != '\0'; countnum++)
-	{}
-
-	for (currstr = 0 ; currstr <= countnum ; currstr++)
 	{
 		_putchar(str[currstr]);
 	}
