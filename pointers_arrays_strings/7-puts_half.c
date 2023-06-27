@@ -11,7 +11,6 @@
 
 void puts_half(char *str)
 {
-	int currstr;
 	int countnum;
 	int halfcountnum;
 
@@ -28,9 +27,9 @@ void puts_half(char *str)
 		halfcountnum = countnum / 2;
 	}
 
-	for (currstr = 0 ; currstr <= halfcountnum ; currstr++)
+	for (; halfcountnum < countnum ; halfcountnum++)
 	{
-		_putchar(str[currstr + halfcountnum]);
+		_putchar(str[halfcountnum]);
 	}
 	_putchar('\n');
 }
