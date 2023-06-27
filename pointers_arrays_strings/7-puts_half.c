@@ -18,9 +18,10 @@ void puts_half(char *str)
 	for (countnum = 0; str[countnum] != '\0' ; countnum++)
 	{}
 
-	if ((j % 2) == 1)
+	if ((countnum % 2) == 1)
 	{
-		halfcountnum = ()
+		halfcountnum = (countnum - 1) / 2;
+		halfcountnum += 1;
 	}
 	else
 	{
