@@ -7,26 +7,26 @@
  *
  * @s: the string provided by the user
  *
- * Return: gives out the result of calculation.
+ * Return: void
  */
 void rev_string(char *s)
 {
 	int currstr;
-    int oposstr = 0;
+	int oposstr = 0;
 	int countnum;
-    char lettercurr;
-    char s2[10];
+	char lettercurr;
+	char s2[10];
 
 	for (countnum = 0; s[countnum] != '\0' ; countnum++)
 	{}
 
-    strcpy(s2, s);
+	strcpy(s2, s);
 
 	for (currstr = countnum - 1 ; currstr >= 0 ; currstr--)
 	{
-        lettercurr = s2[currstr];
-        s[oposstr] = lettercurr;
-        oposstr++;
+		lettercurr = s2[currstr];
+		s[oposstr] = lettercurr;
+		oposstr++;
 	}
 
 }
