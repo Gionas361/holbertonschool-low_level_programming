@@ -13,9 +13,10 @@ void print_rev(char *str)
 {
 	int countnum;
 
-	for (countnum = 0; str[countnum] != '\0' ; countnum++)
+	for (countnum = 0; str[countnum] != '\0' ; countnum--)
 	{
 		_putchar(str[countnum]);
 	}
+
 	_putchar('\n');
 }
