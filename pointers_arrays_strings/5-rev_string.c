@@ -9,7 +9,7 @@
  *
  * Return: gives out the result of calculation.
  */
-int rev_string(char *s)
+void rev_string(char *s)
 {
 	int currstr;
     int oposstr = 0;
@@ -17,16 +17,14 @@ int rev_string(char *s)
     char lettercurr;
     char s2[10];
 
-	for (countnum = 0; s[countnum] ; countnum++)
+	for (countnum = 0; s[countnum] != '\0' ; countnum++)
 	{}
 
-	for (currstr = countnum ; currstr >= 0 ; currstr--)
+	for (currstr = countnum - 1 ; currstr >= 0 ; currstr--)
 	{
-        strcpy(s2, s);
         lettercurr = s2[currstr];
         s[oposstr] = lettercurr;
         oposstr++;
 	}
 
-	return (0);
 }
