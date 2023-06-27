@@ -6,7 +6,7 @@
  *
  * @str: the string provided by the user
  *
- * Return: gives out the result of calculation.
+ * Return: void
  */
 
 void puts_half(char *str)
@@ -18,7 +18,14 @@ void puts_half(char *str)
 	for (countnum = 0; str[countnum] != '\0' ; countnum++)
 	{}
 
-	halfcountnum = countnum / 2;
+	if ((j % 2) == 1)
+	{
+		halfcountnum = ()
+	}
+	else
+	{
+		halfcountnum = countnum / 2;
+	}
 
 	for (currstr = 0 ; currstr <= halfcountnum ; currstr++)
 	{
