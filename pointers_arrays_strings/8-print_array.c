@@ -17,6 +17,7 @@ void print_array(int *a, int n)
 	for (currstr = 0 ; currstr < n ; currstr++)
 	{
 		printf("%d", a[currstr]);
+		
 		if (currstr + 1 < n)
 		{
 			printf(",");
