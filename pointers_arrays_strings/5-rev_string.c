@@ -20,9 +20,10 @@ void rev_string(char *s)
 	for (countnum = 0; s[countnum] != '\0' ; countnum++)
 	{}
 
+    strcpy(s2, s);
+
 	for (currstr = countnum - 1 ; currstr >= 0 ; currstr--)
 	{
-        strcpy(s2, s);
         lettercurr = s2[currstr];
         s[oposstr] = lettercurr;
         oposstr++;
