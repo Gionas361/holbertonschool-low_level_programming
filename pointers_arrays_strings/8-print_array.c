@@ -23,7 +23,8 @@ void print_array(int *a, int n)
 		_putchar(a[currstr]);
 		if (currstr +1 < countnum)
 		{
-			_putchar(', ');
+			_putchar(',');
+			_putchar(' ');
 		}
 	}
 	_putchar('\n');
