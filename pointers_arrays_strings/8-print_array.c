@@ -18,7 +18,7 @@ void print_array(int *a, int n)
 	for (countnum = 0; a[countnum] != '\0' ; countnum++)
 	{}
 
-	for (currstr = -1 ; currstr < countnum ; currstr++)
+	for (currstr = 0 ; currstr < countnum ; currstr++)
 	{
 		_putchar(a[currstr]);
 		if (currstr +1 < countnum)
