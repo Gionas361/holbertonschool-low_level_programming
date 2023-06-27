@@ -14,10 +14,7 @@ void print_rev(char *s)
 	int currstr;
 	int countnum;
 
-	for (countnum = 0; s[countnum] ; countnum++)
-	{}
-
-	for (currstr = countnum ; currstr >= 0 ; currstr--)
+	for (countnum = 0; s[countnum] != '\0'; countnum++)
 	{
 		_putchar(s[currstr]);
 	}
