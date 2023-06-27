@@ -10,7 +10,7 @@
  * Return: gives out the result of calculation.
  */
 
-int print_array(int *a, int n)
+void print_array(int *a, int n)
 {
 	int currstr ;
 	int countnum = n;
