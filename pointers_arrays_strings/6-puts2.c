@@ -9,20 +9,18 @@
  * Return: gives out the result of calculation.
  */
 
-int puts2(char *str)
+void puts2(char *str)
 {
 	int currstr;
 	int countnum;
 
-	for (countnum = 0; str[countnum] ; countnum++)
+	for (countnum = 0; str[countnum] != '\0' ; countnum++)
 	{}
 
 	for (currstr = -1 ; currstr <= countnum ; currstr++)
 	{
 		currstr++;
-		printf("%c", str[currstr]);
+		_putchar(str[currstr]);
 	}
-	printf("\n");
-
-	return (0);
+	_putchar('\n');
 }

@@ -22,6 +22,7 @@ void rev_string(char *s)
 
 	for (currstr = countnum - 1 ; currstr >= 0 ; currstr--)
 	{
+        strcpy(s2, s);
         lettercurr = s2[currstr];
         s[oposstr] = lettercurr;
         oposstr++;
