@@ -11,12 +11,11 @@
 
 void print_rev(char *s)
 {
-	int currstr;
 	int countnum;
 
 	for (countnum = 0; s[countnum] != '\0'; countnum++)
 	{
-		_putchar(s[currstr]);
+		_putchar(s[countnum]);
 	}
 	_putchar('\n');
 }
