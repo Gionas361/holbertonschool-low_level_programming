@@ -17,7 +17,7 @@ void rev_string(char *s)
     char lettercurr;
     char s2[10];
 
-	for (countnum = 0; s[countnum] != '\0' ; countnum++)
+	for (countnum = 0; s[countnum] ; countnum++)
 	{}
 
     strcpy(s2, s);
