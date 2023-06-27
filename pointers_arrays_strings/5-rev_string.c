@@ -9,29 +9,24 @@
  *
  * Return: gives out the result of calculation.
  */
-
 void rev_string(char *s)
 {
-	int i, c, k;
-	char *a, aux;
+	int currstr;
+    int oposstr = 0;
+	int countnum;
+    char lettercurr;
+    char s2[10];
 
-	a = s;
+	for (countnum = 0; s[countnum] != '\0' ; countnum++)
+	{}
 
-	while (s[c] != '\0')
+    strcpy(s2, s);
+
+	for (currstr = countnum - 1 ; currstr >= 0 ; currstr--)
 	{
-		c++;
+        lettercurr = s2[currstr];
+        s[oposstr] = lettercurr;
+        oposstr++;
 	}
 
-	for (k = 1; k < c; k++)
-	{
-		a++;
-	}
-
-	for (i = 0; i < (c / 2); i++)
-	{
-		aux = s[i];
-		s[i] = *a;
-		*a = aux;
-		a--;
-	}
 }
