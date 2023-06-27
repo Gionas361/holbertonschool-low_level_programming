@@ -18,9 +18,8 @@ void puts2(char *str)
 	{
 	}
 
-	for (currstr = -1 ; currstr <= countnum ; currstr++)
+	for (currstr = 0 ; currstr < countnum ; currstr+=2)
 	{
-		currstr += 1;
 		_putchar(str[currstr]);
 	}
 	_putchar('\n');
