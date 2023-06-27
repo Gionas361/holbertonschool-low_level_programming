@@ -20,13 +20,13 @@ int print_array(int *a, int n)
 
 	for (currstr = 0 ; currstr < countnum ; currstr++)
 	{
-		printf("%d", a[currstr]);
+		_putchar(a[currstr]);
 		if (currstr +1 < countnum)
 		{
-			printf(", ");
+			_putchar(', ');
 		}
 	}
-	printf("\n");
+	_putchar('\n');
 
 	return (0);
 }
