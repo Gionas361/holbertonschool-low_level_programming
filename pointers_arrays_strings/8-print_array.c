@@ -15,7 +15,7 @@ void print_array(int *a, int n)
 	int currstr ;
 	int countnum = n;
 
-	for (countnum = 0; a[countnum] ; countnum++)
+	for (countnum = 0; a[countnum] != '\0' ; countnum++)
 	{}
 
 	for (currstr = 0 ; currstr < countnum ; currstr++)
