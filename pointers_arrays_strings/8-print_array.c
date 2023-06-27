@@ -19,9 +19,9 @@ void print_array(int *a, int n)
 		printf("%d", a[currstr]);
 		if (currstr + 1 < n)
 		{
-			printf(',');
-			printf(' ');
+			printf(",");
+			printf(" ");
 		}
 	}
-	printf(\n);
+	printf("\n");
 }
