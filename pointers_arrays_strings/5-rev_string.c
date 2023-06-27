@@ -17,12 +17,12 @@ void rev_string(char *s)
     char lettercurr;
     char s2[10];
 
-	for (countnum = 0; s[countnum] != '\0' ; countnum++)
+	for (countnum = 0; s[countnum] ; countnum++)
 	{}
 
     strcpy(s2, s);
 
-	for (currstr = countnum - 1 ; currstr >= 0 ; currstr--)
+	for (currstr = countnum -1 ; currstr >= 0 ; currstr--)
 	{
         lettercurr = s2[currstr];
         s[oposstr] = lettercurr;
