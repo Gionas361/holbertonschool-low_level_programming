@@ -16,16 +16,16 @@ int swap_int(int *a, int *b);
 
 int _strlen(char *s);
 
-int _puts(char *str);
+void _puts(char *str);
 
-int print_rev(char *s);
+void print_rev(char *s);
 
-int rev_string(char *s);
+void rev_string(char *s);
 
-int puts2(char *str);
+void puts2(char *str);
 
-int puts_half(char *str);
+void puts_half(char *str);
 
-int print_array(int *a, int n);
+void print_array(int *a, int n);
 
 char *_strcpy(int *dest, int *src);

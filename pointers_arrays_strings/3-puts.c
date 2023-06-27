@@ -9,7 +9,7 @@
  * Return: gives out the result of calculation.
  */
 
-int _puts(char *str)
+void _puts(char *str)
 {
 	int countnum;
 
