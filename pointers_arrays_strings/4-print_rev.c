@@ -9,14 +9,17 @@
  * Return: gives out the result of calculation.
  */
 
-void print_rev(char *str)
+void print_rev(char *s)
 {
+	int currstr;
 	int countnum;
 
-	for (; str[countnum] != '\0' ; countnum--)
-	{
-		_putchar(str[countnum]);
-	}
+	for (countnum = 0; s[countnum] ; countnum++)
+	{}
 
-	_putchar('\n');
+	for (currstr = countnum ; currstr >= 0 ; currstr--)
+	{
+		_putchar(s[currstr]);
+	}
+	_putchar("\n");
 }
