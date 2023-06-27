@@ -9,7 +9,7 @@
  * Return: gives out the result of calculation.
  */
 
-int print_rev(char *s)
+void print_rev(char *s)
 {
 	int currstr;
 	int countnum;
@@ -19,9 +19,9 @@ int print_rev(char *s)
 
 	for (currstr = countnum ; currstr >= 0 ; currstr--)
 	{
-		printf("%c", s[currstr]);
+		_putchar(s[currstr]);
 	}
-	printf("\n");
+	_putchar('\n');
 
 	return (0);
 }
