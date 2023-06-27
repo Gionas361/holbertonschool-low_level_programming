@@ -13,19 +13,15 @@
 void print_array(int *a, int n)
 {
 	int currstr ;
-	int countnum = n;
 
-	for (countnum = 0; a[countnum] != '\0' ; countnum++)
-	{}
-
-	for (currstr = 0 ; currstr < countnum ; currstr++)
+	for (currstr = 0 ; currstr < n ; currstr++)
 	{
-		_putchar(a[currstr]);
-		if (currstr +1 < countnum)
+		printf("%d", a[currstr]);
+		if (currstr + 1 < n)
 		{
-			_putchar(',');
-			_putchar(' ');
+			printf(',');
+			printf(' ');
 		}
 	}
-	_putchar('\n');
+	printf(\n);
 }
