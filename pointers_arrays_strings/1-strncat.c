@@ -26,18 +26,18 @@ char *_strncat(char *dest, char *src, int n)
 	{
 	}
 
-    if (n < 0)
-    {
+	if (n < 0)
+	{
 	    maxnum = currstr;
-    }
-    else if (n >= currstr)
-    {
+	}
+	else if (n >= currstr)
+	{
 	    maxnum = currstr;
-    }
-    else
-    {
-        maxnum = n;
-    }
+	}
+	else
+	{
+		maxnum = n;
+	}
 
 	for (currstr = 0 ; maxnum != 0 ; currstr++)
 	{
