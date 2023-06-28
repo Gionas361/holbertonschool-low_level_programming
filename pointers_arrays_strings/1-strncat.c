@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _strcat - prints a triangle
+ * _strncat - prints a triangle
  *
  * @dest: the string provided by the user
  * @src: the string provided by the user
