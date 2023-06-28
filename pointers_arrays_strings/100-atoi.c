@@ -11,14 +11,10 @@
 
 int _atoi(char *s)
 {
-    int stringLenght;
-	int numCheck;
+    int stor = 0;
 
-    for (i = 0 ; s[i] ; i++)
-    {
-    }
+    for (int i = 0; str[i] != '\0'; ++i)
+        stor = stor * 10 + str[i] - '0';
 
-    for ()
-
-	return (int baby);
+    return (stor);
 }
