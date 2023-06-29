@@ -30,11 +30,11 @@ char *_strncpy(char *dest, char *src, int n)
 
 		if ((n >= 0) && (srcmax <= 0))
 		{
-		    dest[deststring] = 0;
+			dest[deststring] = 0;
 		}
 		else
 		{
-		    dest[deststring] = src[currstr];
+			dest[deststring] = src[currstr];
 		}
 
 		deststring++;
