@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _strncat - prints a triangle
+ * _strncpy - prints a triangle
  *
  * @dest: the string provided by the user
  * @src: the string provided by the user
@@ -27,6 +27,7 @@ char *_strncpy(char *dest, char *src, int n)
 	{
 		n--;
 		srcmax--;
+
 		if (n >= 0 && srcmax <= 0)
 		{
 		    dest[deststring] = 0;
@@ -35,6 +36,7 @@ char *_strncpy(char *dest, char *src, int n)
 		{
 		    dest[deststring] = src[currstr];
 		}
+
 		deststring++;
 	}
 
