@@ -36,6 +36,7 @@ int _strcmp(char *s1, char *s2)
 		if (s1[currstr] == s2[currstr])
 		{
 			finalval = 0;
+			currstr++;
 		}
 		else
 		{
