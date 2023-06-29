@@ -29,7 +29,7 @@ char *_strncmp(char *s1, char *s2)
     }
     else
     {
-        maxcount = max2;
+        maxcount = maxs2;
     }
 
     for (currstr = 0 ; currstr <= maxcount ; currstr++)
