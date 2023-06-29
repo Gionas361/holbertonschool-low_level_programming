@@ -28,7 +28,7 @@ char *_strncpy(char *dest, char *src, int n)
 		n--;
 		srcmax--;
 
-		if (n >= 0 && srcmax <= 0)
+		if ((n >= 0) && (srcmax <= 0))
 		{
 		    dest[deststring] = 0;
 		}
