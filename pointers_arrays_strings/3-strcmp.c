@@ -2,11 +2,10 @@
 #include <stdio.h>
 
 /**
- * _strncat - prints a triangle
+ * _strcmp - prints a triangle
  *
- * @dest: the string provided by the user
- * @src: the string provided by the user
- * @n: the string provided by the user
+ * @s1: the string provided by the user
+ * @s2: the string provided by the user
  *
  * Return: gives out the result of calculation.
  */
