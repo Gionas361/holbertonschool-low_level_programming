@@ -44,6 +44,6 @@ char *_strncmp(char *s1, char *s2)
             currstr = maxcount;
         }
 
-        c++
+        currstr++
     }
 }
