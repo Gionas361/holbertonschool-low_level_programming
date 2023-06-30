@@ -2,7 +2,9 @@
 #include <stdio.h>
 
 /**
- * main - check the code
+ * leet - check the code
+ *
+ * @s: string provided by user
  *
  * Return: Always 0.
  */
@@ -17,10 +19,10 @@ char *leet(char *s)
 	{
 		for (currltr = 0 ; currltr < 5 ; currltr++)
 		{
-	    	if (s[currstr] == letters[currltr] || s[currstr] - 32 == letters[currltr])
-		    {
-		    	s[currstr] = numstrs[currltr];
-		    }
+			if (s[currstr] == letters[currltr] || s[currstr] - 32 == letters[currltr])
+			{
+				s[currstr] = numstrs[currltr];
+			}
 		}
 	}
 
