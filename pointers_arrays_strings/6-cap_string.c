@@ -30,7 +30,8 @@ char *cap_string(char *i)
 				i[currstr] -= 32;
 			}
 		}
-		else if (i[currstr] == 0)
+
+		if (i[currstr] == 0)
 		{
 			i[currstr] -= 32;
 		}
