@@ -45,3 +45,5 @@ void reverse_array(int *a, int n);
 char *string_toupper(char *i);
 
 char *cap_string(char *i);
+
+char *leet(char *s);
