@@ -21,7 +21,8 @@ char *_strchr(char *s, char c)
 		{
 			finaleval = &s[currstr + 1];
 		}
-		else if (finaleval != &s[currstr + 1])
+        
+        if (finaleval != &s[currstr + 1])
 		{
 			finaleval = NULL;
 		}
