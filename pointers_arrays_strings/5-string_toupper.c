@@ -19,10 +19,10 @@ char *string_toupper(char *i)
 
 	for (currstr = 0 ; currstr != countmax ; currstr++)
 	{
-        if ((i[currstr] >= 'a') && (i[currstr] <= 'z'))
-        {
-            i[currstr] -= 32;
-        }
+		if ((i[currstr] >= 'a') && (i[currstr] <= 'z'))
+		{
+			i[currstr] -= 32;
+		}
 	}
 
 	return (i);
