@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * cap_string - prints cstr triangle
+ * cap_string - prints str triangle
  *
  * @i: the string provided by the user
  *
@@ -15,19 +15,19 @@ char *cap_string(char *i)
 	int expex = 13;
 	char spc[] = {32, '\t', '\n', 44, ';', 46, '!', '?', '"', '(', ')', '{', '}'};
 
-	while (i[cstr])
+	while (i[str])
 	{
 		setar = 0;
 
 		while (setar < expex)
 		{
-			if ((cstr == 0 || i[cstr - 1] == spc[setar]) && (i[cstr] >= 97 && i[cstr] <= 122))
-				i[cstr] -= 32;
+			if ((str == 0 || i[str - 1] == spc[setar]) && (i[str] >= 97 && i[str] <= 122))
+				i[str] -= 32;
 
 			setar++;
 		}
 
-		cstr++;
+		str++;
 	}
 
 	return (i);
