@@ -12,9 +12,9 @@ char *cap_string(char *i)
 {
 	int currstr;
 	int countmax;
-    int prevstr = -1;
-    int s;
-    char spc[] = {32, '\t', '\n', 44, ';', 46, '!', '?', '"', '(', ')', '{', '}'};
+	int prevstr = -1;
+	int s;
+	char spc[] = {32, '\t', '\n', 44, ';', 46, '!', '?', '"', '(', ')', '{', '}'};
 
 	for (countmax = 0 ; i[countmax] != '\0' ; countmax++)
 	{
@@ -25,12 +25,16 @@ char *cap_string(char *i)
 
 		if ((i[currstr] >= 'a') && (i[currstr] <= 'z'))
 		{
-            for (s = 0; i[prevstr] == spc[s] ; s++)
-            {
+			for (s = 0; i[prevstr] == spc[s] ; s++)
+			{
 				i[currstr] -= 32;
 			}
 		}
-        prevstr++;
+		else if (i[currstr] == 0)
+		{
+			i[currstr] -= 32;
+		}
+		prevstr++;
 	}
 
 	return (i);
