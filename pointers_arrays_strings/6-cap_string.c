@@ -10,7 +10,7 @@
  */
 char *cap_string(char *i)
 {
-	int cstr;
+	int str;
 	int setar;
 	int expex = 13;
 	char spc[] = {32, '\t', '\n', 44, ';', 46, '!', '?', '"', '(', ')', '{', '}'};
