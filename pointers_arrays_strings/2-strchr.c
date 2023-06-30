@@ -13,17 +13,24 @@
 char *_strchr(char *s, char c)
 {
 	int currstr;
-    char *finaleval;
+	char *finaleval;
 
 	for (currstr = 0 ; s[currstr] != c ; currstr++)
-    {
-        finaleval = &s[currstr + 1];
-    }
+	{
+		if (finaleval != &s[currstr + 1])
+		{
+			finaleval = NULL;
+		}
+		else
+		{
+			finaleval = &s[currstr + 1];
+		}
+	}
 
-    if (finaleval != &s[currstr + 1])
-    {
-        finaleval = NULL;
-    }
+	if (finaleval != &s[currstr + 1])
+	{
+		finaleval = NULL;
+	}
 
 	return (finaleval);
 }
