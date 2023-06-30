@@ -15,7 +15,7 @@ char *leet(char *s)
 
 	for (currstr = 0 ; s[currstr] != '\0' ; currstr++)
 	{
-		for (currltr = 0 ; currltr < 4 ; currltr++)
+		for (currltr = 0 ; currltr < 5 ; currltr++)
 		{
 	    	if (s[currstr] == letters[currltr] || s[currstr] - 32 == letters[currltr])
 		    {
