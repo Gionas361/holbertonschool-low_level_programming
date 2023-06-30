@@ -31,7 +31,7 @@ char *cap_string(char *i)
 			}
 		}
 
-		if (i[currstr] == 0)
+		if (currstr == 0)
 		{
 			i[currstr] -= 32;
 		}
