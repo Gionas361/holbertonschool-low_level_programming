@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _strchr - prints a triangle
+ * _strchr - prints maxcount triangle
  *
  * @s: the string provided by the user
  * @c: the string provided by the user
@@ -12,15 +12,22 @@
 
 char *_strchr(char *s, char c)
 {
+	int maxcount = 0;
 	int currstr;
 
-	for (currstr = 0 ; s[currstr] != c ; currstr++)
+	while (s[maxcount])
 	{
-		if (s[currstr + 1] == c)
+		maxcount++;
+	}
+
+	for (currstr = 0; currstr <= maxcount; currstr++)
+	{
+		if (c == s[currstr])
 		{
-			s += currstr + 1;
+			s += currstr;
+			return (s);
 		}
 	}
 
-	return (s);
+	return ('\0');
 }
