@@ -1,45 +1,29 @@
 #include "main.h"
 #include <stdio.h>
-#include <string.h>
 
 /**
- * reverse_array - prints a triangle
- *
- * @a: the string provided by the user
- * @n: the string provided by the user
- *
- * Return: void
- */
+  * reverse_array - Reverses the content of an array of integers
+  * @a: An array of integers
+  * @n: Number of elements to swap
+  *
+  * Return: empty
+  */
 void reverse_array(int *a, int n)
 {
-	int currstr;
-    int nextstr
-	int oposstr = 0;
-	int countnum = n;
-	int lettercurr;
-    int letternext;
+	int *p, i, aux, k;
 
-	for (countnum = 0; a[countnum] != '\0' ; countnum++)
-	{}
+	p = a;
 
-	for (currstr = 0 ; currstr <= 0 ; currstr--)
+	for (i = 1; i < n; i++)
 	{
-		lettercurr = a[currstr];
-		letternext = a[nextstr];
-        
-		oposstr++;
+		p++;
 	}
 
-	for (currstr = 0 ; currstr < n ; currstr++)
+	for (k = 0; k < i / 2; k++)
 	{
-		printf("%d", a[currstr]);
-		
-		if (currstr + 1 < n)
-		{
-			printf(",");
-			printf(" ");
-		}
+		aux = a[k];
+		a[k] = *p;
+		*p = aux;
+		p--;
 	}
-	printf("\n");
-
 }
