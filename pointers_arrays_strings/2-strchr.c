@@ -17,15 +17,16 @@ char *_strchr(char *s, char c)
 
 	for (currstr = 0 ; s[currstr] != c ; currstr++)
 	{
-		if (s[currstr + 1] == c)
-		{
-			finaleval = &s[currstr + 1];
-		}
-		else
+		if (finaleval != &s[currstr + 1])
 		{
 			finaleval = NULL;
 		}
+		else
+		{
+			finaleval = &s[currstr + 1];
+		}
 	}
+
 
 	return (finaleval);
 }
