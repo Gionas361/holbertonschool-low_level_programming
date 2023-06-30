@@ -13,13 +13,13 @@
 
 char *_memset(char *s, char b, unsigned int n)
 {
-    int currvalarr;
-    int n2 = n;
+	int currvalarr;
+	int n2 = n;
 
 	for (currvalarr = 0 ; currvalarr < n2 ; currvalarr++)
-    {
-        s[currvalarr] = b;
-    }
+	{
+		s[currvalarr] = b;
+	}
 
 	return (s);
 }
