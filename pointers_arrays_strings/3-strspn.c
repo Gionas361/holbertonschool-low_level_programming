@@ -2,21 +2,12 @@
 #include <stdio.h>
 
 /**
- * _strchr - prints maxcount triangle
+ * _strspn - search a string for a set of bytes
+ * @s: source array
+ * @accept: accepted string
  *
- * @s: the string provided by the user
- * @c: the string provided by the user
- *
- * Return: gives out the result of calculation.
+ * Return: number of bytes in the init segment
  */
-
-/**
-  * _strspn - search a string for a set of bytes
-  * @s: source array
-  * @accept: accepted string
-  *
-  * Return: number of bytes in the init segment
-  */
 
 unsigned int _strspn(char *s, char *accept)
 {
