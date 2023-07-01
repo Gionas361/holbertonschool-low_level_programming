@@ -10,24 +10,13 @@
  */
 void print_chessboard(char (*a)[8])
 {
-    int incRow = 0;
-    int inkSpace = 0;
+	int indx1, indx2;
 
-    for (incRow = 0; a[incRow][inkSpace] != a[8][8] ; incRow++)
-    {
-        for (inkSpace = 0; a[incRow][inkSpace] != a[incRow][8] ; inkSpace++)
-        {
-            printf("%c", a[incRow][inkSpace]);
-        }
-        printf("\n");
-    }
+	for (indx1 = 0; a[indx1][7]; indx1++)
+	{
+		for (indx2 = 0; indx2 < 8; indx2++)
+			_putchar(a[indx1][indx2]);
 
-    if (a[incRow][inkSpace] == a[8][8])
-    {
-        for (inkSpace = 0; a[incRow][inkSpace] != a[incRow][8] ; inkSpace++)
-        {
-            printf("%c", a[incRow][inkSpace]);
-        }
-        printf("\n");
-    }
+		_putchar('\n');
+	}
 }
