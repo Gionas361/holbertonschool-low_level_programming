@@ -13,11 +13,11 @@ void _print_rev_recursion(char *c)
 {
 	if (*c == '\0')
 	{
-        return;
+		return;
 	}
 
 	c++;
 	_print_rev_recursion(c);
-    c--;
-    _putchar(*c);
+	c--;
+	_putchar(*c);
 }
