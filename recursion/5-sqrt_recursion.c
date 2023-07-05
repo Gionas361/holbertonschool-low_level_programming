@@ -31,7 +31,7 @@ int _sqrt(int mainA, int bye)
 	int sqrt = bye * bye;
 
 	if (sqrt > mainA)
-		returmainA (-1);
+		return (-1);
 
 	if (sqrt == mainA)
 		return (bye);
