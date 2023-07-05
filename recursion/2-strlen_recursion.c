@@ -7,7 +7,7 @@
  * @s: the string provided by the user
  *
  * Return: gives out the result of calculation.
- */  
+ */
 
 int _strlen_recursion(char *s)
 {

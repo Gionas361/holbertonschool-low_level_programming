@@ -7,7 +7,7 @@
  * @n: the string provided by the user
  *
  * Return: gives out the result of calculation.
- */  
+ */
 
 int factorial(int n)
 {

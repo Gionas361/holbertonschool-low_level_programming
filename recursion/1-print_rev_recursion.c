@@ -7,7 +7,7 @@
  * @c: the string provided by the user
  *
  * Return: gives out the result of calculation.
- */  
+ */
 
 void _print_rev_recursion(char *c)
 {
