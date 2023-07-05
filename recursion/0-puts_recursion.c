@@ -8,12 +8,13 @@
  * Return: gives out the result of calculation.                                                 
  */  
 
-int _puts_recursion(char c)
+void _puts_recursion(char *c)
 {
     if (c == '\0')
     {
         return;
     }
+
     _putchar(c);
     _puts_recursion(c + 1);
 }

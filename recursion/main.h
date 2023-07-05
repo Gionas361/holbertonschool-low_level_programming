@@ -9,4 +9,4 @@
  */
 int _putchar(char c);
 
-int _puts_recursion(char c);
+void _puts_recursion(char c);
