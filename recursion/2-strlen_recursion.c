@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _print_rev_recursion - Copy a string
+ * _strlen_recursion - Copy a string
  *
  * @c: the string provided by the user
  *
@@ -11,16 +11,11 @@
 
 int _strlen_recursion(char *s)
 {
-	int count;
-
-	if (*c == '\0')
+	if (*s == '\0')
 	{
-		_putchar('\n');
-		return ();
+		return (0);
 	}
 
-	_putchar(*c);
-	c++;
-	count++;
-	_puts_recursion(c);
+	s++;
+	return (_strlen_recursion(s) + 1);
 }
