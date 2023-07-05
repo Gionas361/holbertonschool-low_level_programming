@@ -8,7 +8,7 @@
  * @y: the string provided by the user
  *
  * Return: gives out the result of calculation.
- */  
+ */
 
 int _pow_recursion(int x, int y)
 {
