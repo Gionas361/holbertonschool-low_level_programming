@@ -4,7 +4,7 @@
 /**
  * _strlen_recursion - Copy a string
  *
- * @c: the string provided by the user
+ * @s: the string provided by the user
  *
  * Return: gives out the result of calculation.
  */  
