@@ -7,7 +7,7 @@
  * @c: the string provided by the user
  *
  * Return: gives out the result of calculation.
- */  
+ */
 
 void _puts_recursion(char *c)
 {
