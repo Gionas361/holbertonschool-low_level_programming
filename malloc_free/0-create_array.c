@@ -3,13 +3,13 @@
 #include <stdlib.h>
 
 /**
- * create_array - makes an array
- * 
- * @size: size of array
- * @c: idk
- * 
- * Return: Retuns 0
-*/
+  * create_array - makes an array
+  * 
+  * @size: size of array
+  * @c: idk
+  * 
+  * Return: Retuns 0
+  */
 
 char *create_array(unsigned int size, char c)
 {
