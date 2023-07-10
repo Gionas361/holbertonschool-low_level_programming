@@ -34,10 +34,6 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
-	if (dupstr == str)
-	{
-		return (dupstr);
-	}
 
-	return (NULL);
+	return (dupstr);
 }
