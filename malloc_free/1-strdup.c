@@ -13,7 +13,7 @@
 char *_strdup(char *str)
 {
 	char *dupstr;
-    int s;
+	int s;
 
 	for (s = 0 ; str[s] != '\0' ; s++)
 	{
@@ -26,14 +26,14 @@ char *_strdup(char *str)
 		dupstr[s] = str[s];
 	}
 
-    if (str == NULL)
-    {
-        return (NULL);
-    }
-    if (dupstr == NULL)
-    {
-        return (NULL);
-    }
+	if (str == NULL)
+	{
+		return (NULL);
+	}
+	if (dupstr == NULL)
+	{
+		return (NULL);
+	}
 
-    return (dupstr);
+	return (dupstr);
 }
