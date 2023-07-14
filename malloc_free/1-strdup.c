@@ -12,28 +12,28 @@
 
 char *_strdup(char *str)
 {
-	char *dupstr;
-	int s;
-
-	for (s = 0 ; str[s] != '\0' ; s++)
-	{
-	}
-
-	dupstr = malloc(s * sizeof(str));
-
-	for (s = 0 ; str[s] != '\0' ; s++)
-	{
-		dupstr[s] = str[s];
-	}
+	int a = 0, i = 1;
+	char *s;
 
 	if (str == NULL)
-	{
 		return (NULL);
-	}
-	if (dupstr == NULL)
+
+	while (str[i])
 	{
-		return (NULL);
+		i++;
 	}
 
-	return (dupstr);
+	s = malloc((sizeof(char) * i) + 1);
+
+	if (s == NULL)
+		return (NULL);
+
+	while (a < i)
+	{
+		s[a] = str[a];
+		a++;
+	}
+
+	s[a] = '\0';
+	return (s);
 }
