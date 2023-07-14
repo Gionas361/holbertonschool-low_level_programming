@@ -4,9 +4,9 @@
 
 /**
   * _strdup - makes an array
-  * 
+  *
   * @str: size of array
-  * 
+  *
   * Return: Retuns 0
   */
 
