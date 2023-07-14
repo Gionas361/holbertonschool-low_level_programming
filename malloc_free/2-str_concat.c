@@ -4,9 +4,10 @@
 
 /**
   * str_concat - makes an array
-  * 
-  * @str: size of array
-  * 
+  *
+  * @s1: size of array
+  * @s2: i forgor
+  *
   * Return: Retuns 0
   */
 
