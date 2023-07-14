@@ -11,14 +11,14 @@
 
 void *malloc_checked(unsigned int b)
 {
-    void *dance;
+	void *dance;
 
-    dance = malloc(b);
+	dance = malloc(b);
 
-    if (dance == NULL)
-    {
-        exit (98);
-    }
+	if (dance == NULL)
+	{
+		exit (98);
+	}
 
-    return (dance);
+	return (dance);
 }
