@@ -9,16 +9,15 @@
   *
   * Description: The attributes of a dog.
   */
-
 struct dog
 {
 	char *name;
 	float age;
-	char* owner;
+	char *owner;
 };
 
 /**
- * dog_t - Typedef for unsigned int
+ * dog_t - Typedef for dog structure
  */
 typedef struct dog dog_t;
 
