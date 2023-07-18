@@ -4,7 +4,7 @@
 char *_strcpy(char *dest, char *src);
 
 /**
-  * init_dog - Initializes a dog structure
+  * new_dog - Initializes a dog structure
   * @name: The name of the dog.
   * @age: The age of the dog.
   * @owner: The owner of the dog.
