@@ -1,6 +1,8 @@
 #include "dog.h"
 #include <stdlib.h>
 
+char *_strcpy(char *dest, char *src);
+
 /**
   * init_dog - Initializes a dog structure
   * @name: The name of the dog.
@@ -13,7 +15,7 @@
 dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t *store;
-	int n, o, i;
+	int n, o;
 
 	if (name != NULL && owner != NULL)
 	{
@@ -52,4 +54,18 @@ dog_t *new_dog(char *name, float age, char *owner)
 	}
 
 	return (store);
+}
+
+char *_strcpy(char *dest, char *src)
+{
+	int currval;
+
+	for (currval = 0 ; src[currval] != '\0' ; currval++)
+	{
+		dest[currval] = src[currval];
+	}
+
+	dest[currval++] = '\0';
+
+	return (dest);
 }
