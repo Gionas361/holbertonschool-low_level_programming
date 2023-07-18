@@ -56,6 +56,14 @@ dog_t *new_dog(char *name, float age, char *owner)
 	return (store);
 }
 
+/**
+ * _strcpy - Copy a string
+ *
+ * @dest: the string provided by the user
+ * @src: the string provided by the user
+ *
+ * Return: gives out the result of calculation.
+ */
 char *_strcpy(char *dest, char *src)
 {
 	int currval;
