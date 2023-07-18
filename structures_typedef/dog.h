@@ -1,5 +1,4 @@
-#ifndef _HEADER_
-#define _HEADER_
+#include <unistd.h>
 
 /**
   * struct dog - Dog attributes
