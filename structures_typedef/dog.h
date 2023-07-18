@@ -1,16 +1,14 @@
 #include <unistd.h>
 
 /**
- * _putchar - writes the character c to stdout
- * @c: The character to print
+ * dog - is a structure
  *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ *
  */
 
 struct dog
 {
-    char *name;
-    float age;
-    char* owner;
+	char *name;
+	float age;
+	char* owner;
 };
