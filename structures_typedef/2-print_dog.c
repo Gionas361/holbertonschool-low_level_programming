@@ -1,7 +1,3 @@
-/**
-  * To PRINT, or not to print. THAT IS THE QUESTION!!!
-  */
-
 #include "dog.h"
 #include <stdlib.h>
 #include <stdio.h>
