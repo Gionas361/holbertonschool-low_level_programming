@@ -10,6 +10,7 @@
   * print_dog - prints the dog structure
   * @d: dog structure.
   *
+  * Return: nothing.
   */
 
 void print_dog(struct dog *d)
