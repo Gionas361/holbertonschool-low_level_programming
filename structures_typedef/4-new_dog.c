@@ -1,6 +1,8 @@
 #include "dog.h"
 #include <stdlib.h>
 
+char *_strcpy(char *dest, char *src);
+
 /**
   * init_dog - Initializes a dog structure
   * @name: The name of the dog.
