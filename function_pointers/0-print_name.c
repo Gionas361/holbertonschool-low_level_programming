@@ -6,10 +6,13 @@
  * @name: the name given
  * @f: pointer to the function received
  *
- * Return: Always 0.
+ * Return: Nothing.
  */
 
 void print_name(char *name, void (*f)(char *))
 {
-	(*f)(name);
+	if (name != NULL && f != NULL)
+	{
+		(*f)(name);
+	}
 }
