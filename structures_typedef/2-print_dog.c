@@ -7,7 +7,7 @@
 #include <stdio.h>
 
 /**
-  * init_dog - Initializes a dog structure
+  * print_dog - prints the dog structure
   * @d: dog structure.
   *
   * Return: Nothing
