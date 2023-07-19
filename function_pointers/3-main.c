@@ -28,6 +28,14 @@ int main(int argc, char *argv[])
 		exit(99);
 	}
 
+/*
+	if ((atoi(argv[1]) || atoi(argv[3]) == 0) && (argv[2] == "/" || "%"))
+	{
+		printf("Error\n");
+		exit(100);
+	}
+*/
+
 	printf("%d\n", oprt(atoi(argv[1]), atoi(argv[3])));
 	return (0);
 }
