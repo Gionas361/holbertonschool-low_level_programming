@@ -68,5 +68,5 @@ int op_mod(int a, int b)
 
 	i = a - i;
 
-	return(i);
+	return (i);
 }
