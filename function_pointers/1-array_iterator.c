@@ -11,15 +11,11 @@
 
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
-	int currVal, maxVal;
+	unsigned int currVal;
 
 	if (array != NULL && size > 0 && action != NULL)
 	{
-		for (maxVal = 0 ; array[maxVal] != '\0' ; maxVal++)
-		{
-		}
-
-		for (currVal = 0 ; currVal <= maxVal ; currVal++)
+		for (currVal = 0 ; currVal < size ; currVal++)
 		{
 			action(array[currVal]);
 		}
