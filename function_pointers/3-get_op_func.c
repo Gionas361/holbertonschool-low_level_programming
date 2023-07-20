@@ -1,8 +1,6 @@
 #include "3-calc.h"
 #include <string.h>
 
-int looper(char sumb, int maxamount);
-
 /**
   * get_op_func - gets the correct mathematical operation
   * @s: character used for the calculation that was provided
