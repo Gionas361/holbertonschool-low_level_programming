@@ -15,7 +15,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	va_list nums;
 	unsigned int currNum;
-    const char *n = "";
+	const char *n = "";
 
 	va_start(nums, n);
 
