@@ -30,7 +30,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 		{
 			printf("\n");
 		}
-		else if (separator != NULL || separator != "")
+		else if (separator != NULL)
 		{
 			printf("%c", *separator);
 			printf(" ");
