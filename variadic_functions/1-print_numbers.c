@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
-  * print numbers - prints all the numers given.
+  * print_numbers - prints all the numers given.
   * @separator: the thing that goes between numbers.
   * @n: Amount of numbers provided.
   * @...: next numbers.
@@ -32,7 +32,11 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 		}
 		else if (separator != NULL)
 		{
-			printf("%c ", *separator);
+			printf("%c", *separator);
+			if (separator != "")
+			{
+				printf(" ");
+			}
 		}
 	}
 
