@@ -15,6 +15,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	va_list nums;
 	unsigned int currNum;
+    const char *n = "";
 
 	va_start(nums, n);
 
@@ -33,7 +34,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 		else if (separator != NULL)
 		{
 			printf("%c", *separator);
-			if (separator != "")
+			if (separator != n)
 			{
 				printf(" ");
 			}
