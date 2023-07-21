@@ -34,7 +34,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 		else if (separator != NULL)
 		{
 			printf("%c", *separator);
-			if (separator != p)
+			if (*separator != p)
 			{
 				printf(" ");
 			}
@@ -43,10 +43,3 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 
 	va_end(nums);
 }
-
-/**
-  * for (i = 0 ; separator[i] = "\0" ; i++)
-  * {
-  *	 printf("@c", separator);
-  * }
-  */
