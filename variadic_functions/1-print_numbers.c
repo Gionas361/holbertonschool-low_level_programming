@@ -3,7 +3,8 @@
 #include <stdio.h>
 
 /**
-  * sum_them_all - sums all the numers given.
+  * print numbers - prints all the numers given.
+  * @separator: the thing that goes between numbers.
   * @n: Amount of numbers provided.
   * @...: next numbers.
   *
