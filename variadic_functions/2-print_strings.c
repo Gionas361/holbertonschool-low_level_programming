@@ -4,7 +4,7 @@
 
 /**
   * print_strings - prints all the words given.
-  * @separators: the character that goes between the words
+  * @separator: the character that goes between the words
   * @n: Amount of numbers provided.
   * @...: next numbers.
   *
