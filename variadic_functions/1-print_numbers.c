@@ -34,7 +34,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 		else if (separator != NULL)
 		{
 			printf("%c", *separator);
-			if (*separator != *p)
+			if (separator != p)
 			{
 				printf(" ");
 			}
