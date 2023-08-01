@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * size_t - Returns the number of nodes.
+ * print_list - Returns the number of nodes.
  *
  * @h: the list given to us
  *
@@ -10,22 +10,22 @@
  */
 size_t print_list(const list_t *h)
 {
-    size_t noudes = 0;
+	size_t noudes = 0;
 
-    while (h)
-    {
-        if ((*h).str == NULL)
-        {
-            printf("[0] (nil)\n");
-        }
-        else
-        {
-            printf("[%d] %s\n", (*h).len, (*h).str);
-        }
+	while (h)
+	{
+		if ((*h).str == NULL)
+		{
+			printf("[0] (nil)\n");
+		}
+		else
+		{
+			printf("[%d] %s\n", (*h).len, (*h).str);
+		}
 
-        noudes++;
-        h = (*h).next;
-    }
+		noudes++;
+		h = (*h).next;
+	}
 
-    return (noudes);
+	return (noudes);
 }
