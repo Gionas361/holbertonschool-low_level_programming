@@ -24,17 +24,18 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 
 	if (*head == NULL)
 	{
+		(*nodepointer).prev = NULL;
 		*head = nodepointer;
+		return (nodepointer);
 	}
-	else
+
+	nodepointed = *head;
+	while ((*nodepointed).next != NULL)
 	{
-		nodepointed = *head;
-		while ((*nodepointed).next != NULL)
-		{
-			nodepointed = (*nodepointed).next;
-		}
-		(*nodepointed).next = nodepointer;
+		nodepointed = (*nodepointed).next;
 	}
+	(*nodepointed).next = nodepointer;
+	(*nodepointer).prev = nodepointed;
 
 	return (nodepointer);
 }
