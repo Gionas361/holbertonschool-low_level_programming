@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * delete_dnodeint_at_index - Deletes the node in the position given from a list
+ * delete_dnodeint_at_index - Deletes the node in the position of the list.
  *
  * @head: list given to us
  * @index: the index for the node to delete
