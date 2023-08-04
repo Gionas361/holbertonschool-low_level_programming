@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * add_dnodeint_end - adds a new node to the end of the list.
+ * free_dlistint - free's the alocated space of the list.
  *
  * @head: the list given to us.
  *
