@@ -16,7 +16,7 @@ int sum_dlistint(dlistint_t *head)
 		return (0);
 	}
 
-	for (sum = 0 ; head != NULL)
+	for (sum = 0 ; head != NULL ;)
 	{
 		sum += (*head).n;
 		head = (*head).next;
