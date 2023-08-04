@@ -41,7 +41,7 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 	(*nodepointer).n = n;
 	(*nodepointer).prev = h2;
 	(*nodepointer).next = (*h2).next;
-	(*h2).next->prev = nodepointer;
+	(*(*h2).next).prev = nodepointer;
 	(*h2).next = nodepointer;
 
 	return (nodepointer);
