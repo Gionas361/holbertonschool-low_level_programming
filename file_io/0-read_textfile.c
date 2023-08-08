@@ -14,15 +14,15 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	char *CurrLet;
 
 	if (filename == NULL)
-    {
+	{
 		return (0);
-    }
+	}
 
 	CurrLet = malloc(sizeof(char) * letters);
 	if (CurrLet == NULL)
-    {
+	{
 		return (0);
-    }
+	}
 
 	OP = open(filename, O_RDONLY);
 	RD = read(OP, CurrLet, letters);
@@ -34,7 +34,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 		return (0);
 	}
 
-    if (WR == -1 || WR != RD)
+	if (WR == -1 || WR != RD)
 	{
 		free(CurrLet);
 		return (0);
