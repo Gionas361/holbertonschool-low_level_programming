@@ -1,5 +1,4 @@
 #include "main.h"
-#include "../_printf/main.h"
 
 /**
  * read_textfile - free's the alocated space of the list.
