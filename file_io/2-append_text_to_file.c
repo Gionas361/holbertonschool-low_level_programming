@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * create_file - free's the alocated space of the list.
+ * append_text_to_file - appends text to file.
  *
  * @filename: the name of the file provided.
  * @text_content: the letters that the text has.
