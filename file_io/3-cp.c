@@ -28,9 +28,9 @@ char *handle_char(char *file)
 
 /**
   * file_closer - Closes files.
-  * @file: The file closed.
+  * @FDfile: The file closed.
   */
-void close_file(int FDfile)
+void file_closer(int FDfile)
 {
 	int CL;
 
