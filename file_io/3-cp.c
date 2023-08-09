@@ -92,8 +92,8 @@ int main(int argc, char *argv[])
 	}
 
 	free(letter);
-	close_file(FROM);
-	close_file(TO);
+	file_closer(FROM);
+	file_closer(TO);
 
 	return (0);
 }
