@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 char *handle_char(char *file);
-void close_file(int fd);
+void file_closer(int fd);
 
 /**
   * handle_char - gives 1024 bytes to manage letters.
