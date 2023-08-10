@@ -1,11 +1,11 @@
 #include "hash_tables.h"
 
+
 /**
- * hash_table_create - creates a hash table.
+ * hash_djb2 - implementation of the djb2 algorithm
+ * @str: string used to generate hash value
  *
- * @size: size of a hashtable
- *
- * Return: idk yet.
+ * Return: hash value
  */
 
 unsigned long int hash_djb2(const unsigned char *str)
